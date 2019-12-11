@@ -1,0 +1,32 @@
+{
+  "name": "haywire-next",
+  "version": "1.0.0",
+  "description": "haywire website in next",
+  "routes": {"src": "^/favicon.ico$", "dest": "icon.ico"},
+  "scripts": {
+    "test": "xo",
+    "dev": "next",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^4.1.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-xo-react": "^0.13.0",
+    "eslint-plugin-react": "^7.3.0",
+    "xo": "latest"
+  },
+  "xo": {
+    "extends": "xo-react"
+  },
+  "now": {
+    "alias": "haywire"
+  }
+}

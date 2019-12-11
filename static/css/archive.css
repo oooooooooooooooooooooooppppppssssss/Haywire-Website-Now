@@ -1,0 +1,12 @@
+
+/*
+ For this page only, the grid should have no padding or margin
+*/
+.columns {
+  margin: 0;
+  padding: 0;
+}
+ .section.footer{
+   /*position: fixed;*/
+   bottom: 0;
+ }

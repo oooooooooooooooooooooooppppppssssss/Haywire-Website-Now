@@ -1,0 +1,222 @@
+/*
+  assorted Haywire custom styles
+*/
+.heroImage {
+  text-align: center;
+  margin-top: 10%
+}
+p.center {
+  text-align: center;
+}
+.leftFoot {
+  padding-left: 2rem;
+}
+/* meet */
+.rightFoot {
+  padding-right: 2rem;
+}
+.sectionImage {
+  height: 100%!important;
+  width: 100%!important;
+}
+.section{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.section.a{
+      background: url('https://haywire.now.sh/static/background2.jpg');
+      background-repeat: no-repeat;
+      background-position: 50% center;
+      background-size: cover;
+      height: 100vh;
+}
+.section.b, .c, .i,{
+  padding-top: 35px;
+  background-color: #EAEAEA;
+}
+.section.c{
+  /* times are changing text-align: center;
+	/*
+  background: url('//jfks.org/haywire/img/birds-left.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+	*/
+}
+.section.c h5{
+  margin: 0;
+  padding: 0;
+}
+.section.i{
+  height: auto;
+}
+.section.footer{
+  padding-bottom: 1rem;
+  background-color: #121212;
+  color: #FFF;
+  padding-top: 15px;
+}
+.footer .button{
+  margin-bottom: 0px;
+}
+.section.c{ /*Currently section C -- could change -- spacing before footer*/
+  padding-bottom: 4rem;
+}
+.ctext{
+  padding-top: 1rem;
+  text-align: right;
+}
+#logo {
+	-webkit-transition: -webkit-transform .4s;
+	-moz-transition: -moz-transform .3s;
+	-ms-transition: -ms-transform .3s;
+	-o-transition: -o-transform .3s;
+	transition: transform .3s;
+}
+.wiggle, #logo:hover {
+  -webkit-animation: shake 0.72s cubic-bezier(.36,.07,.19,.97) both;
+  -moz-animation: shake 0.72s cubic-bezier(.36,.07,.19,.97) both;
+  -ms-animation: shake 0.72s cubic-bezier(.36,.07,.19,.97) both;
+  -o-animation: shake 0.72s cubic-bezier(.36,.07,.19,.97) both;
+  animation: shake 0.72s cubic-bezier(.36,.07,.19,.97) both;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+@keyframes shake {
+  10%, 90% {
+    -webkit-transform: rotate(-1deg) translateX(-1px);
+    -moz-transform: rotate(-1deg) translateX(-1px);
+    -ms-transform: rotate(-1deg) translateX(-1px);
+    -o-transform: rotate(-1deg) translateX(-1px);
+    transform: rotate(-1deg) translateX(-1px);
+  }
+  20%, 80% {
+    -webkit-transform: rotate(-4deg) translateX(-1px);
+    -moz-transform: rotate(-4deg) translateX(-1px);
+    -ms-transform: rotate(-4deg) translateX(-1px);
+    -o-transform: rotate(-4deg) translateX(-1px);
+    transform: rotate(-4deg) translateX(-1px);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: rotate(-4deg) translateX(-1px);
+    -moz-transform: rotate(-4deg) translateX(-1px);
+    -ms-transform: rotate(-4deg) translateX(-1px);
+    -o-transform: rotate(-4deg) translateX(-1px);
+    transform: rotate(-4deg) translateX(-1px);
+  }
+  40%, 60% {
+    -webkit-transform: rotate(4deg) translateX(1px);
+    -moz-transform: rotate(4deg) translateX(1px);
+    -ms-transform: rotate(4deg) translateX(1px);
+    -o-transform: rotate(4deg) translateX(1px);
+    transform: rotate(4deg) translateX(1px);
+  }
+}
+.introText {
+  color: #DDD; /*dark bg */
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  text-align: left;
+	background: rgba(0,0,0,0.5);
+  padding: 15px;
+}
+.introText a {
+  color: #DDD; /* dark BG */
+  text-decoration: none;
+  transition: color 0.7s ease-in-out;
+  -webkit-transition: color 0.7s ease-in-out;
+}
+.introText a:hover{
+  //text-decoration: underline;
+  color: #39D0FF;
+}
+.introText.dark {
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  color: #333;
+}
+.introText.dark a {
+  color: #333;
+}
+.largeButton {
+  height: 58px;
+  line-height: 58px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+}
+.scroll{
+  text-align: center;
+  color: #EEE;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+  -webkit-transition: opacity 3s ease-in-out;
+}
+.orange {
+  color: #FF8F00;
+}
+/* Fonts */
+* {
+  font-family: "sansation", "Sansation", sansation, Sansation, Helvetica, Arial, sans-serif;
+}
+/*
+The Archive
+*/
+#archive-row img {
+  height: 100%;
+  width: 100%;
+}
+.archive-container{
+  width: 100vw;
+}
+.coverimg{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.issuenr{
+  position: absolute;
+  color: white;
+  background: rgba(0,0,0,0.75);
+  padding: 2rem 4rem;
+  opacity: 0;
+  top: 50%;
+  left: 2rem;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.coverimg:hover .issuenr{
+  opacity: 1;
+}
+/*
+	Normilazation on demand!
+*/
+.noBottom{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+/*
+@media requests for mobile
+*/
+@media (max-width: 700px){
+  #logo{
+    width: 100%;
+  }
+  .scroll{
+    display: none;
+  }
+}
+@media (max-height: 660px){
+  .section.a{
+    height: auto;
+  }
+}
