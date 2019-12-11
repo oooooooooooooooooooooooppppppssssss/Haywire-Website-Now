@@ -23,8 +23,13 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
+		
 					<div className="container">
 						<div className="row">
+							<div class="bg-image img1"></div>
+							<div class="bg-image img2"></div>
+							<div class="bg-image img3"></div>
+							<div class="bg-image img4"></div>
 							<div className="twelve column heroImage">
 								<img src="/static/logo.png" id="logo" className={this.state.wiggling}/>
 							</div>
