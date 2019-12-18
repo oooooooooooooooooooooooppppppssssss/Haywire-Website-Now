@@ -18,6 +18,9 @@ const Header = () => (
 				<Link prefetch href="/archive">
 					<a className="button " >Archive</a>
 				</Link>
+				<Link href="https://www.yumpu.com/user/haywire">
+					<a className="button " >View on yumpu</a>
+				</Link>
 			</div>
 			<div className="one-half column ctext">
 				<span className="rightFoot">(c) Haywire {new Date().getFullYear()}</span>
