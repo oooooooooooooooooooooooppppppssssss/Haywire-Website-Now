@@ -21,7 +21,7 @@ const Header = () => (
 				</Link>
 	
 				<Link prefetch href="https://www.yumpu.com/user/haywire">
-					<a className="button " style={margin-left:20px}>View on yumpu</a>
+					<a className="button " style=margin-left:"20px">View on yumpu</a>
 				</Link>
 			</div>
 			<div className="one-half column ctext">
