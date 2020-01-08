@@ -15,11 +15,14 @@ const Header = () => (
 				<Link href="/">
 					<a className="button " style={linkStyleSub}>Home</a>
 				</Link>
+	
 				<Link prefetch href="/archive">
 					<a className="button " >Archive</a>
 				</Link>
-				<Link style="align:right" href="https://www.yumpu.com/user/haywire">
-					<a className="button " >View on yumpu</a>
+				<Link style="align:right" href="https://www.yumpu.com/user/haywire"
+	
+				<Link prefetch href="https://www.yumpu.com/user/haywire">
+					<a className="button">View on yumpu</a>
 				</Link>
 			</div>
 			<div className="one-half column ctext">
