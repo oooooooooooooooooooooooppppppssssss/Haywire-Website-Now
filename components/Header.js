@@ -20,7 +20,7 @@ const Header = () => (
 					<a className="button " >Archive</a>
 				</Link>
 				<Link style="align:right" href="https://www.yumpu.com/user/haywire">
-	
+				</Link>
 				<Link prefetch href="https://www.yumpu.com/user/haywire">
 					<a className="button">View on yumpu</a>
 				</Link>
