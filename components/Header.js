@@ -7,6 +7,9 @@ const linkStyle = {
 const linkStyleSub = {
 	marginRight: 10
 };
+const linkStyleSub = {
+	marginRight: 10
+};
 const Header = () => (
 	<div className="section footer">
 		<div className="row">
