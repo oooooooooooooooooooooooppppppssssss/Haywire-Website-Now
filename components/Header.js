@@ -7,9 +7,7 @@ const linkStyle = {
 const linkStyleSub = {
 	marginRight: 10
 };
-const linkStyleSub = {
-	marginRight: 10
-};
+
 const Header = () => (
 	<div className="section footer">
 		<div className="row">
@@ -22,7 +20,7 @@ const Header = () => (
 					<a className="button " >Archive</a>
 				</Link>
 				<Link href="https://www.yumpu.com/user/haywire">
-					<a className="button " >View on yumpu</a>
+					<a className="button " style={linkStyleSub} >View on yumpu</a>
 				</Link>
 			</div>
 			<div className="one-half column ctext">
