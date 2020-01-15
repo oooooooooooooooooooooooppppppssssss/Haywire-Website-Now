@@ -76,7 +76,7 @@ class index extends React.Component {
                 Deadline for submissions for issue {Edition.issueNumber + 1} is <em>{Edition.nextEditionDueDate}</em>. Please include your class section, e.g. 10c, 11a, 8e with your submission.
        </p>
 							<p>
-								<a href="mailto:haywire@jfks.me" className="button button-orange">Email Us Your Creations!</a>
+			  <a href="mailto:haywire@jfks.me" className="button button-orange">Email Us Your Creations!</a>
 							</p>
 						</div>
 					</div>
