@@ -66,8 +66,6 @@ class index extends React.Component {
 					<div className="container">
 						<div className="row">
 							<h1 class="contribute">Contribute</h1>
-							<br>
-							<br>
 							<p>
                 Haywire magazine welcomes original stories, poems, essays and critical texts written by students of our school. We also feature students&apos; art and photography. You are welcome to submit your writing or art that you have created as a school assignment, or your own previously unpublished work.
        </p>
