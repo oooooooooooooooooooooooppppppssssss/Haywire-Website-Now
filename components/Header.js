@@ -8,7 +8,7 @@ const linkStyleSub = {
 	marginRight: 10
 };
 const linkStyleYumpu = {
-	marginLeft: 10
+	marginRight: 10
 };
 
 const Header = () => (
@@ -20,10 +20,10 @@ const Header = () => (
 					<a className="button " style={linkStyleSub}>Home</a>
 				</Link>
 				<Link prefetch href="/archive">
-					<a className="button " >Archive</a>
+					<a className="button " style={linkStyleYumpu}>Archive</a>
 				</Link>
 				<Link href="https://www.yumpu.com/user/haywire">
-					<a className="button " style={linkStyleSub}>View on yumpu</a>
+					<a className="button " >View on yumpu</a>
 				</Link>
 			</div>
 			<div className="one-half column ctext">
