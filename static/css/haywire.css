@@ -230,7 +230,8 @@ The Archive
       color:#313131;
       font-size:45px;
       font-weight: bold;
-      position: absolute;
+      position: relative;
+	top: 25px;
       -webkit-animation:colorchange 20s infinite alternate;
       
       
