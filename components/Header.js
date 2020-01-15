@@ -8,7 +8,7 @@ const linkStyleSub = {
 	marginRight: 10
 };
 const linkStyleYumpu = {
-	marginRight: 10
+	marginLeft: 10
 };
 
 const Header = () => (
