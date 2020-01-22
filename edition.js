@@ -1,7 +1,7 @@
 const Edition = {
-	issue: 'Thirteen',
-	issueNumber: 13,
-	nextEditionDueDate: 'Fall 2019',
-	url: 'https://haywire.now.sh/static/HW13.pdf'
+	issue: 'Fourteen',
+	issueNumber: 14,
+	nextEditionDueDate: 'Spring 2021',
+	url: 'https://haywire.now.sh/static/HW14.pdf'
 };
 export default Edition;

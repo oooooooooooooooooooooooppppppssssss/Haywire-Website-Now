@@ -63,6 +63,11 @@ const issueList = [
 		name: '13',
 		url: 'https://haywire.now.sh/static/HW13.pdf',
 		image: 'https://haywire.now.sh/static/cover13.PNG'
+	},
+	{
+		name: '14',
+		url: 'https://haywire.now.sh/static/HW14.pdf',
+		image: 'https://haywire.now.sh/static/cover14.png'
 	}
 ];
 export default issueList;
