@@ -41,8 +41,8 @@ class index extends React.Component {
 										We feature original student work of many kinds: short stories, vignettes, poems, critical essays, photographs, paintings, or comics.
          </p>
 									<p className="noBottom">Please submit your art to our magazine.
-                    Send submissions to <a href="mailto:haywire@jfks.me">haywire@jfks.me</a>
-									</p>
+                    Send submissions to</p>  <p class="contribute" style="font-size:small;>haywire@jfks.me</p>
+									
 								</h5>
 								<p className="center">
 									<a
@@ -65,7 +65,7 @@ class index extends React.Component {
 				<div className="section b">
 					<div className="container">
 						<div className="row">
-							<h1>Contribute</h1>
+							<h1 class="contribute">Contribute</h1>
 							<p>
                 Haywire magazine welcomes original stories, poems, essays and critical texts written by students of our school. We also feature students&apos; art and photography. You are welcome to submit your writing or art that you have created as a school assignment, or your own previously unpublished work.
        </p>
@@ -76,7 +76,7 @@ class index extends React.Component {
                 Deadline for submissions for issue {Edition.issueNumber + 1} is <em>{Edition.nextEditionDueDate}</em>. Please include your class section, e.g. 10c, 11a, 8e with your submission.
        </p>
 							<p>
-								<a href="mailto:haywire@jfks.me" className="button button-orange">Email Us Your Creations!</a>
+			  <a href="mailto:haywire@jfks.me" className="button button-orange">Email Us Your Creations!</a>
 							</p>
 						</div>
 					</div>
