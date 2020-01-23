@@ -44,9 +44,9 @@ class index extends React.Component {
                     Send submissions to</p>  <p class="contribute" style="font-size:small;>haywire@jfks.me</p>
 									
 								</h5>
-											<p className='center '>
+											<p className="center " >
 									<a
-										className='button button-orange largeButton '
+										className="button button-orange largeButton "
 										onClick={() => this.startTheWiggle()}
 										href={Edition.url}
 										download={'Haywire Issue ' + Edition.issueNumber}
