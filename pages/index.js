@@ -24,7 +24,7 @@ class index extends React.Component {
 			<Layout title="haywire">
 				<div className="section a">
 		
-					<div className="container">
+					<div className="container " >
 						<div className="row">
 							<div class="bg-image img1"></div>
 							<div class="bg-image img2"></div>
