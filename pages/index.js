@@ -46,7 +46,7 @@ class index extends React.Component {
 								</h5>
 											<p className='center '>
 									<a
-										className="button button-orange largeButton"
+										className='button button-orange largeButton '
 										onClick={() => this.startTheWiggle()}
 										href={Edition.url}
 										download={'Haywire Issue ' + Edition.issueNumber}
