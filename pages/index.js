@@ -41,10 +41,10 @@ class index extends React.Component {
 										We feature original student work of many kinds: short stories, vignettes, poems, critical essays, photographs, paintings, or comics.
          </p>
 									<p className="noBottom">Please submit your art to our magazine.
-                    Send submissions to</p>  <p class="contribute" style="font-size:small;>haywire@jfks.me</p>
+                    Send submissions to  <p class="contribute" style="font-size:small;>haywire@jfks.me</p>
 									
 								</h5>
-											<p className=center>
+											<p className="center">
 									<a
 										className="button button-orange largeButton "
 										onClick={() => this.startTheWiggle()}
