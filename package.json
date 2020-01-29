@@ -1,6 +1,6 @@
 {
   "name": "haywire-next",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "haywire website in next",
   "routes": {"src": "^/favicon.ico$", "dest": "icon.ico"},
   "scripts": {
@@ -16,8 +16,7 @@
   "dependencies": {
     "next": "^4.1.3",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "core-js": "3",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "eslint-config-xo-react": "^0.13.0",
