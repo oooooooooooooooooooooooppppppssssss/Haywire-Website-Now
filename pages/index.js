@@ -52,7 +52,7 @@ class index extends React.Component {
 										onClick={() => this.startTheWiggle()}
 										href={Edition.url}
 										download={'Haywire Issue ' + Edition.issueNumber}
-									>Download Issue {Edition.issue}
+									>Download {Edition.issue}
 									</a>
 									<br/>
 									<Link href="/archive">
