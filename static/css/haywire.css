@@ -125,9 +125,6 @@ position: fixed;
     transform: rotate(4deg) translateX(1px);
   }
 }
-.contribute p{
- color: #ffffff
-}
 .introText {
   color: #DDD; /*dark bg */
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
@@ -237,7 +234,7 @@ The Archive
 
       width:100%;
 
-      color:#313131;
+       color: #ffffff; /*#313131*/
       font-size:45px;
       font-weight: bold;
       position: relative;
