@@ -26,7 +26,7 @@ class index extends React.Component {
 					<div className="container " >
 						<div className="row">
 						<video autoplay muted loop id="backgroundvideo">
-							<source src="backgroundvideo.mp4" type="video/mp4"/>
+							<source src="static/backgroundvideo.mp4" type="video/mp4"/>
 						</video>
 							<div class="bg-image img1"></div>
 							<div class="bg-image img2"></div>
