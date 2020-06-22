@@ -23,10 +23,15 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-				<video autoplay loop id="backgroundvideo">
+				<video autoplay loop id="backgroundvideo" preload="metadata">
 					<source src="static/backgroundvideo.mp4" type="video/mp4"/>
 				</video>
 				<script>
+				video.addEventListener('loadedmetadata', function() {
+	if (video.buffered.length === 0) return;
+
+	var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
+});
     document.getElementById('backgroundvideo').play();
      </script>
 					<div className="container " >
