@@ -4,8 +4,8 @@ class Issue extends React.Component {
 		return (
 			<div className=" coverimg">
 				<a href={this.props.details.url} download>
-					<img src={this.props.details.image} alt={' ' + this.props.details.name}/>
-					<span className="issuenr"> <h1>{this.props.details.name}</h1></span>
+					<img src={this.props.details.image} alt={'Issue ' + this.props.details.name}/>
+					<span className="issuenr">placeholder <h1>{this.props.details.name}</h1></span>
 				</a>
 			</div>
 		);
