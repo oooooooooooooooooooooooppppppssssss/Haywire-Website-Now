@@ -126,7 +126,7 @@ position: fixed;
   }
 }
 .introText {
-  color: #DDD; /*dark bg */
+  color: #ffffff; /*dark bg #DDD*/
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
   text-align: left;
 	background: rgba(0,0,0,0.5);
