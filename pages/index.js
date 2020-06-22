@@ -23,8 +23,8 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-				<iframe width="100%" height="100%"
-	src="https://www.youtube.com/embed/EeZu881VXxI&loop=1">
+				<iframe height="100vh"
+	src="https://www.youtube.com/embed/EeZu881VXxI?autoplay=1&loop=1">
 	</iframe>
 
 					<div className="container " >
