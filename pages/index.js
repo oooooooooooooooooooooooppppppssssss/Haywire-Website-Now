@@ -23,11 +23,10 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-				<video controls loop id="backgroundvideo" preload="auto">
-					<source src="static/backgroundvideo.mp4" type="video/mp4"/>
-				</video>
-				<script>
-				</script>
+				<iframe width="420" height="315"
+	src="https://www.youtube.com/embed/EeZu881VXxI&loop=1">
+	</iframe>
+
 					<div className="container " >
 						<div className="row">
 							<div class="bg-image img1"></div>
