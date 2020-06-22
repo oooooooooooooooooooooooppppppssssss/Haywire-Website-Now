@@ -25,7 +25,7 @@ p.center {
   position: relative;
 }
 .section.a{
-      background: url('https://haywire.now.sh/static/testbackground.png');
+      background: url('https://haywire.now.sh/static/testbackground.PNG');
       background-repeat: no-repeat;
       background-position: 50% center;
       background-size: cover;
