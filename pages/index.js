@@ -23,7 +23,9 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-
+				<video autoplay muted loop id="backgroundvideo">
+				  <source src="backgroundvideo.mp4" type="video/mp4">
+				</video>
 					<div className="container " >
 						<div className="row">
 							<div class="bg-image img1"></div>
