@@ -15,7 +15,7 @@ const Header = () => (
 	<div className="section footer">
 		<div className="row">
 			<div className="one-half column leftFoot" >
-				<a className="button button-orange" href={Edition.url} download={'Haywire Issue' + Edition.issueNumber} style={linkStyle} >Download BLM Journal /*{Edition.issueNumber}*/</a>
+				<a className="button button-orange" href={Edition.url} download={'Haywire Issue' + Edition.issueNumber} style={linkStyle} >Download BLM Journal</a>
 				<Link href="/">
 					<a className="button " style={linkStyleSub}>Home</a>
 				</Link>
