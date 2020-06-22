@@ -168,7 +168,7 @@ position: fixed;
   transition: opacity 3s ease-in-out;
   -webkit-transition: opacity 3s ease-in-out;
 }
-.sectionb p{
+.sectionb {
   color:#ffffff
 }
 .orange {
