@@ -27,9 +27,7 @@ class index extends React.Component {
 					<source src="static/backgroundvideo.mp4" type="video/mp4"/>
 				</video>
 				<script>
-				  video.addEventListener('loadedmetadata', function() {
-				    if (video.buffered.length === 0) return;
-
+				  video.addEventListener('loadedmetadata', function() {if (video.buffered.length === 0) return;
 				    var bufferedSeconds = video.buffered.end(0) - video.buffered.start(0);
 				    console.log(bufferedSeconds + ' seconds of video are ready to play!');
 				  });
