@@ -26,6 +26,9 @@ class index extends React.Component {
 				<video autoplay loop id="backgroundvideo">
 					<source src="static/backgroundvideo.mp4" type="video/mp4"/>
 				</video>
+				<script>
+    document.getElementById('backgroundvideo').play();
+     </script>
 					<div className="container " >
 						<div className="row">
 							<div class="bg-image img1"></div>
