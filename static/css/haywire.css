@@ -133,7 +133,7 @@ position: fixed;
   padding: 15px;
 }
 .introText a {
-  color: #DDD; /* dark BG */
+  color: #ffffff; /* dark BG #DDD*/
   text-decoration: none;
   transition: color 0.7s ease-in-out;
   -webkit-transition: color 0.7s ease-in-out;
