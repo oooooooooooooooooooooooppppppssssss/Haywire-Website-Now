@@ -23,7 +23,7 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-				<video autoplay loop id="backgroundvideo" preload="auto">
+				<video controls autoplay loop id="backgroundvideo" preload="auto">
 					<source src="static/backgroundvideo.mp4" type="video/mp4"/>
 				</video>
 				<script>
