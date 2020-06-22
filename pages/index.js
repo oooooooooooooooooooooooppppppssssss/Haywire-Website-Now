@@ -75,7 +75,7 @@ class index extends React.Component {
                 Texts need to be in an editable text format, such as Word or OpenOffice (no pdfs). Artwork and photographs can be submitted as jpegs, tiffs or pdfs, in high resolution (300 dpi).
        </p>
 							<p>
-                Deadline for submissions for issue {Edition.issueNumber + 1} is <em>{Edition.nextEditionDueDate}</em>. Please include your class section, e.g. 10c, 11a, 8e with your submission.
+                Deadline for submissions for Issue {Edition.issueNumber + 1} is <em>{Edition.nextEditionDueDate}</em>. Please include your class section, e.g. 10c, 11a, 8e with your submission.
        </p>
 							<p>
 			  <a href="mailto:haywire@jfks.me" className="button button-orange">Email Us Your Creations!</a>
