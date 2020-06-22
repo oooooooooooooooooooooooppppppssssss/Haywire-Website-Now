@@ -24,12 +24,12 @@ p.center {
   height: auto;
   position: relative;
 }
-.section.a{/*
+.section.a{
       background: url('https://haywire.now.sh/static/testbackground.PNG');
       background-repeat: no-repeat;
       background-position: 50% center;
       background-size: cover;
-      height: 100vh;*/
+      height: 100vh;
 }
 #backgroundvideo{
 position: fixed;

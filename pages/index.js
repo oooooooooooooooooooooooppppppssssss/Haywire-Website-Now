@@ -23,9 +23,6 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-				<iframe style="position: absolute; top: 0; left: 0;" src="https://www.youtube.com/embed/EeZu881VXxI?autoplay=1&controls=0&loop=1&playlist=PLVIzzzDmGq9Irjl0xCyjdRGGvqmJZV6rb&showinfo=0"
-				 width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>>
-	</iframe>
 
 
 					<div className="container " >
