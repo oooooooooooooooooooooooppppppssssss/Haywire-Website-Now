@@ -23,7 +23,8 @@ class index extends React.Component {
 		return (
 			<Layout title="haywire">
 				<div className="section a">
-		
+
+
 					<div className="container " >
 						<div className="row">
 							<div class="bg-image img1"></div>
@@ -39,8 +40,8 @@ class index extends React.Component {
 								<h5 className="introText">
 									<p>Haywire is a bi-annual student literary-art magazine of the John-F.-Kennedy School in Berlin.
 										We feature original student work of many kinds: short stories, vignettes, poems, critical essays, photographs, paintings, comics, or music.</p>
-										<p>Current Deadline: 22 of April 2020
-         </p>							
+										<p>Current Deadline: TBA Fall 2020
+         </p>
 									<p className="noBottom">Please submit your art to our magazine.
                                         Send submissions to <a href="mailto:haywire@jfks.me">haywire@jfks.me</a>
 									</p>
@@ -52,7 +53,7 @@ class index extends React.Component {
 										onClick={() => this.startTheWiggle()}
 										href={Edition.url}
 										download={'Haywire Issue ' + Edition.issueNumber}
-									>Download Issue {Edition.issue}
+									>Download {Edition.issue}
 									</a>
 									<br/>
 									<Link href="/archive">
@@ -75,7 +76,7 @@ class index extends React.Component {
                 Texts need to be in an editable text format, such as Word or OpenOffice (no pdfs). Artwork and photographs can be submitted as jpegs, tiffs or pdfs, in high resolution (300 dpi).
        </p>
 							<p>
-                Deadline for submissions for issue {Edition.issueNumber + 1} is <em>{Edition.nextEditionDueDate}</em>. Please include your class section, e.g. 10c, 11a, 8e with your submission.
+                Deadline for submissions for Issue {Edition.issueNumber + 1} is <em>{Edition.nextEditionDueDate}</em>. Please include your class section, e.g. 10c, 11a, 8e with your submission.
        </p>
 							<p>
 			  <a href="mailto:haywire@jfks.me" className="button button-orange">Email Us Your Creations!</a>

@@ -25,11 +25,18 @@ p.center {
   position: relative;
 }
 .section.a{
-      background: url('https://haywire.now.sh/static/background.png');
+      background: url('https://haywire.now.sh/static/testbackground.PNG');
       background-repeat: no-repeat;
       background-position: 50% center;
       background-size: cover;
       height: 100vh;
+}
+#backgroundvideo{
+position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
 }
 .section.b, .c, .i,{
   padding-top: 35px;
@@ -161,6 +168,9 @@ p.center {
   transition: opacity 3s ease-in-out;
   -webkit-transition: opacity 3s ease-in-out;
 }
+.sectionb {
+  color:#ffffff;
+}
 .orange {
   color: #FF8F00;
 }
@@ -221,74 +231,74 @@ The Archive
   }
 }
 .contribute {
-      
+
       font-family: futura;
       font-style: italic;
-      
+
       width:100%;
-      
-      color:#313131;
+
+      color:#313131; /* */
       font-size:45px;
       font-weight: bold;
       position: relative;
 	top: 25px;
       -webkit-animation:colorchange 20s infinite alternate;
-      
-      
+
+
     }
 
     @-webkit-keyframes colorchange {
       0% {
-        
+
         color: blue;
       }
-      
+
       10% {
-        
+
         color: #8e44ad;
       }
-      
+
       20% {
-        
+
         color: #1abc9c;
       }
-      
+
       30% {
-        
+
         color: #d35400;
       }
-      
+
       40% {
-        
+
         color: blue;
       }
-      
+
       50% {
-        
+
         color: #34495e;
       }
-      
+
       60% {
-        
+
         color: blue;
       }
-      
+
       70% {
-        
+
         color: #2980b9;
       }
       80% {
-     
+
         color: #f1c40f;
       }
-      
+
       90% {
-     
+
         color: #2980b9;
       }
-      
+
       100% {
-        
+
         color: pink;
       }
     }
