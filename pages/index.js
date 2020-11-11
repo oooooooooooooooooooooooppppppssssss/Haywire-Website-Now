@@ -40,7 +40,7 @@ class index extends React.Component {
 								<h5 className="introText">
 									<p>Haywire is a bi-annual student literary-art magazine of the John-F.-Kennedy School in Berlin.
 										We feature original student work of many kinds: short stories, vignettes, poems, critical essays, photographs, paintings, comics, or music.</p>
-										<p>Current Deadline: November 18, 2020
+										<p>Current Deadline: November 18, 2020 Bazinga!
          </p>
 									<p className="noBottom">Please submit your art to our magazine.
                                         Send submissions to <a href="mailto:haywire@jfks.me">haywire@jfks.me</a>
