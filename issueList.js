@@ -73,6 +73,11 @@ const issueList = [
 		name: 'BLM Journal',
 		url: 'https://haywire.now.sh/static/blmjournal.pdf',
 		image: 'https://haywire.now.sh/static/blmjournalcover.PNG'
+	},
+	{
+		name: '15',
+		url: 'https://haywire.now.sh/static/HW15.pdf',
+		image: 'https://haywire.now.sh/static/cover15.PNG'
 	}
 ];
 export default issueList;

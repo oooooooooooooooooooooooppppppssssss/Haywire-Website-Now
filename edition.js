@@ -1,7 +1,7 @@
 const Edition = {
-	issue: 'BLM Journal',
+	issue: 'Issue 15',
 	issueNumber: 15,
-	nextEditionDueDate: 'Fall 2020',
-	url: 'https://haywire.now.sh/static/blmjournal.pdf'
+	nextEditionDueDate: 'Fall 2021',
+	url: 'https://haywire.now.sh/static/HW15.pdf'
 };
 export default Edition;
