@@ -79,5 +79,10 @@ const issueList = [
 		url: 'https://haywire.now.sh/static/HW15.pdf',
 		image: 'https://haywire.now.sh/static/cover15.PNG'
 	}
+	{
+		name: '16',
+		url: 'https://haywire.now.sh/static/HW16.pdf',
+		image: 'https://haywire.now.sh/static/cover16.png'
+	},
 ];
 export default issueList;
